@@ -1,0 +1,79 @@
+html {
+	background-color: #f6e3b8;
+}
+
+body {
+	max-width:960px;
+	margin:0 auto;
+}
+
+img {
+	float:left;
+	padding-left:45px;
+	padding-right:45px;
+	margin-left:50px;
+	margin-top:70px;
+}
+
+
+p {
+	font-family:'TruenoRegular',sans-serif;
+	font-size: 1.15em;
+	padding-top:175px;
+	margin-left: 310px;
+	padding-left:40px;
+	padding-right:40px;
+	color: #252525;
+	width:450px;
+}
+
+span {
+	background-image: url("../images/yellow.png");
+	background-size: cover;
+}
+
+@media only screen and (max-width: 950px) {
+div {
+	max-width:550px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img {
+	max-width: 150px;
+	margin-left: auto;
+}
+
+p {
+	font-size: 1em;
+	width:300px;
+	margin-left: 250px;
+	padding-top:50px;
+	margin-top:80px;
+	padding-left:0;
+	padding-right:0;
+}
+}
+
+@media only screen and (max-width: 600px) {
+div {
+	max-width:400px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img {
+	float: initial;
+	max-width: 150px;
+	margin-left: 18%;
+}
+
+p {
+	clear:both;
+	font-size: 1em;
+	width:250px;
+	margin: 0 auto;
+}
+}
+
+
