@@ -57,7 +57,7 @@ p {
 
 @media only screen and (max-width: 600px) {
 div {
-	max-width:400px;
+	max-width:300px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -65,7 +65,8 @@ div {
 img {
 	float: initial;
 	max-width: 150px;
-	margin-left: 18%;
+	margin-left:auto;
+	margin-right:auto;
 }
 
 p {
