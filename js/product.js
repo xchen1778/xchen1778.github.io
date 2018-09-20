@@ -1,7 +1,7 @@
 var kickstarter = {
 	name: 'Chalk Drawers',
 	description: 'Three chalk toys that are designed to draw lines, circles, and dots, reimagining our tools for drawing',
-	img1: 'images/chalk1.jpg',
+	img1: 'images/chalk1.png',
 	img2: 'images/chalk2.jpg',
 	url:'https://www.kickstarter.com/projects/947573931/chalk-drawers-chalk-toys-that-make-circles-lines-o?ref=discovery',
 	pledged: 2993,
@@ -78,19 +78,18 @@ var kickstarter = {
 
 document.getElementById("name").textContent = kickstarter.name;
 document.getElementById("description").textContent = kickstarter.description;
-document.getElementsByTagName("img")[0].setAttribute("src",kickstarter.img2);
-document.getElementsByTagName("img")[1].setAttribute("src",kickstarter.img1);
+document.getElementsByTagName("img")[0].setAttribute("src",kickstarter.img1);
+document.getElementsByTagName("img")[1].setAttribute("src",kickstarter.img2);
 document.getElementsByTagName("a")[0].setAttribute("href",kickstarter.url);
 document.getElementById("pledge").textContent = "$" + kickstarter.pledged;
 document.getElementById("backer").textContent = kickstarter.backers;
-document.getElementById("expiration").textContent = kickstarter.expirationDate;
-document.getElementById("timeleft").textContent = kickstarter.timeLeft();
 
 for(var i = 0; i < kickstarter.pledgeLevels.length; i++) {
-	document.getElementsByClassName("pledgename")[i].textContent = kickstarter.pledgeLevels[i].name;
-	document.getElementsByClassName("pledgeprice")[i].textContent = "$" + kickstarter.pledgeLevels[i].price;
-	document.getElementsByClassName("pledgeinclude")[i].textContent = kickstarter.pledgeLevels[i].includes;
+    document.getElementById("pledgecontainer").innerHTML += '<div class="pledge"><h1>' + kickstarter.pledgeLevels[i].name + '</h1><p>Price: $' + kickstarter.pledgeLevels[i].price + '</p><p>' + kickstarter.pledgeLevels[i].includes + '</p></div>';
 }
+
+document.getElementById("expiration").textContent = kickstarter.expirationDate;
+document.getElementById("timeleft").textContent = kickstarter.timeLeft();
 
 
 
