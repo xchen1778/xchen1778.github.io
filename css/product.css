@@ -138,7 +138,7 @@ img.intro1 {
 
 img.intro2 {
 	width: 100%;
-	margin-top:70px;
+	margin-top:78px;
 }
 
 @font-face {
@@ -153,6 +153,7 @@ p, h1 {
 }
 
 #name {
+	color:#fff;
 	font-size: 2em;
 }
 
@@ -190,15 +191,16 @@ a#link:visited {
 }
 
 #pledgeLevels {
+	color:#fff;
 	font-size: 2em;
 	margin-top:30px;
-	margin-bottom: 20px;
+	margin-bottom: 30px;
 }
 
 .pledge {
     width:100px;
     float:left;
-    margin-right:10px;
+    margin-right:15px;
     margin-top:-20px;
     margin-bottom: 19px;
 }
@@ -220,6 +222,7 @@ a#link:visited {
 
 #expire {
 	font-size: 1em;
+	color: #fff;
 }
 
 #expiration, #timeleft {
