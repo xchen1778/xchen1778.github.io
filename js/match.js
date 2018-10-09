@@ -95,7 +95,7 @@ function memoryFlipTile(tile,val) {
 			else {
 				document.getElementById(memory_tile_ids[0]).style.background = "#E36262";
 				tile.style.background = "#E36262";
-				setTimeout(flip2Back, 900);
+				setTimeout(flip2Back, 700);
 			}
 		}
 	}
