@@ -86,7 +86,7 @@ function memoryFlipTile(tile,val) {
 
 				if(tiles_flipped === memory_array.length) {
 					clearInterval(timer);
-					setTimeout(popUp, 500);
+					setTimeout(popUp, 200);
 					document.getElementById("time").classList.remove("pulse");
 					document.getElementById("button").classList.add("pulse");
 				}
