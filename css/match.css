@@ -192,7 +192,36 @@ div#memory_board > div > img {
 
 
 
+@media only screen and (max-width: 360px) {
+    html {
+		max-width:300px;
+	}
 
+	h1 {
+	font-size: 50px;
+	}
+
+	table {
+		font-size: 15px;
+	}
+
+	#start {
+	width: 50px;
+	margin-top:10px;
+	}
+
+	div#memory_board {
+	height:850px;
+	}
+
+	div#memory_board > div {
+	border: 10px solid #FFFFFF;
+	width:85px;
+	height:85px;
+	margin:18px;
+	}
+
+}
 
 
 
