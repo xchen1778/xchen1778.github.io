@@ -1,0 +1,199 @@
+@font-face { 
+	font-family: Pequena; src: url('Pequena.otf');
+}
+
+html {
+	max-width:960px;
+	margin:0 auto;
+	background-color: #CDEBFF;
+	font-family: Pequena;
+}
+
+.number {
+	font-family:"comic sans ms";
+	font-weight: bold;
+}
+
+h1 {
+	font-size: 80px;
+	color: #E18B5E;
+	text-align: center;
+	margin-top: 35px;
+}
+
+table {
+font-size: 40px;
+color: rgba(99,52,18,0.90);
+text-align: left;
+width:90%;
+margin:0 auto;
+text-align: center;
+margin-top:-35px;
+margin-bottom:15px;
+}
+
+#start {
+	width: 120px;
+	margin-top:10px;
+}
+
+#button {
+	cursor: pointer;
+}
+
+div#memory_board {
+	background: #d6d6d6;
+	width:100%;
+	height:710px;
+	margin:0 auto;
+	border-radius: 50px;
+}
+
+div#memory_board > div {
+	background: #57B0EE;
+	border: 20px solid #FFFFFF;
+	border-radius: 100%;
+	width:140px;
+	height:140px;
+	float:left;
+	margin:28px;
+	cursor:pointer;
+}
+
+div#memory_board > div > img {
+	width:80%;
+	margin-left:11%;
+	margin-top:7%;
+}
+
+@media only screen and (max-width: 970px) {
+    html {
+		max-width:750px;
+	}
+
+	h1 {
+	font-size: 75px;
+	}
+
+	table {
+		font-size: 32px;
+	}
+
+	#start {
+	width: 100px;
+	margin-top:10px;
+	}
+
+	div#memory_board {
+	height:640px;
+	}
+
+	div#memory_board > div {
+	border: 15px solid #FFFFFF;
+	width:123px;
+	height:123px;
+	margin:30px 15px;
+	}
+
+}
+
+@media only screen and (max-width: 750px) {
+    html {
+		max-width:550px;
+	}
+
+	h1 {
+	font-size: 65px;
+	}
+
+	table {
+		font-size: 25px;
+	}
+
+	#start {
+	width: 90px;
+	margin-top:10px;
+	}
+
+	div#memory_board {
+	height:680px;
+	}
+
+	div#memory_board > div {
+	border: 10px solid #FFFFFF;
+	width:120px;
+	height:120px;
+	margin:15px 19px;
+	}
+
+}
+
+@media only screen and (max-width: 550px) {
+    html {
+		max-width:450px;
+	}
+
+	h1 {
+	font-size: 60px;
+	}
+
+	table {
+		font-size: 20px;
+	}
+
+	#start {
+	width: 80px;
+	margin-top:10px;
+	}
+
+	div#memory_board {
+	height:580px;
+	}
+
+	div#memory_board > div {
+	border: 10px solid #FFFFFF;
+	width:94px;
+	height:94px;
+	margin:15px;
+	}
+
+}
+
+@media only screen and (max-width: 450px) {
+    html {
+		max-width:350px;
+	}
+
+	h1 {
+	font-size: 55px;
+	}
+
+	table {
+		font-size: 18px;
+	}
+
+	#start {
+	width: 75px;
+	margin-top:10px;
+	}
+
+	div#memory_board {
+	height:1000px;
+	}
+
+	div#memory_board > div {
+	border: 10px solid #FFFFFF;
+	width:100px;
+	height:100px;
+	margin:23px;
+	}
+
+}
+
+
+
+
+
+
+
+
