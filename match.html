@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Matching Game</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="css/match.css" rel="stylesheet" type="text/css">
+	<link href="http://allfont.net/allfont.css?fonts=comic-sans-ms" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="css/animate.css">
+</head>
+<body>
+	<header>
+        <h1 class="animate bounceIn">Let's Macth!</h1>
+    </header>
+
+    <section class="score-panel">
+        <table>
+			<tr>
+				<td>Move: <span id="move" class="number" >0</span></td>
+				<td id="time" class="">Time: <span class="number">0</span> mins <span class="number">0</span> secs</td>
+				<td id="button" class="animated pulse infinite"><img id="start" src="img/start.png"></td>
+			</tr>
+		</table>
+    </section>
+
+	<div id="memory_board"></div>
+	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+	<script src="js/match.js"></script>
+
+</body>
+</html>
