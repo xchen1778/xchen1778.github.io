@@ -1,6 +1,6 @@
 var move = 0;
 var timer;
-var memory_array = ['img/banana.png','img/banana.png','img/cherry.png','img/cherry.png','img/strawberry.png','img/strawberry.png','img/grapes.png','img/grapes.png','img/pear.png','img/pear.png','img/orange.png','img/orange.png'];
+var memory_array = ['images/banana.png','images/banana.png','images/cherry.png','images/cherry.png','images/strawberry.png','images/strawberry.png','images/grapes.png','images/grapes.png','images/pear.png','images/pear.png','images/orange.png','images/orange.png'];
 var memory_values = [];
 var memory_tile_ids = [];
 var tiles_flipped = 0;
@@ -126,7 +126,7 @@ initialBoard();
 document.getElementById("button").addEventListener("click", function() {
 	start();
 	document.getElementById("button").classList.remove("pulse");
-	document.getElementById("button").innerHTML = '<img id="start" src="img/again.png" class="animated jello">';
+	document.getElementById("button").innerHTML = '<img id="start" src="images/again.png" class="animated jello">';
 });
 
 
