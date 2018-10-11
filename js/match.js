@@ -53,6 +53,8 @@ function start() {
 
 function newBoard() {
 	tiles_flipped = 0;
+	memory_values = [];
+	memory_tile_ids = [];
 	var output = '';
 	shuffle(memory_array);
 
@@ -128,11 +130,3 @@ document.getElementById("button").addEventListener("click", function() {
 	document.getElementById("button").classList.remove("pulse");
 	document.getElementById("button").innerHTML = '<img id="start" src="images/again.png" class="animated jello">';
 });
-
-
-
-
-
-
-
-
