@@ -1,0 +1,280 @@
+* {
+	color:#343434;
+}
+
+.container {
+	width:100%;
+	min-height:30px;
+	position:relative;
+	margin:auto;
+	margin-bottom: 10px;
+	margin-top:120px;
+	margin-left:100px;
+}
+
+.row, .column {
+	box-sizing: border-box;
+}
+
+.row:before, .row:after {
+	content:" ";
+	display: table;
+}
+
+.row:after {
+	clear: both;
+}
+
+.column {
+	position: relative;
+	float: left;
+}
+
+.column + .column {
+	margin-left: 1.6%;
+}
+
+.column-12{
+	width: 6.86666666667%;
+}
+
+.column-11{
+	width: 15.3333333333%;
+}
+
+.column-10 {
+	width: 23.8%;
+}
+
+.column-9 {
+	width: 32.2666666667%;
+}
+
+.column-8 {
+	width: 40.7333333333%;
+}
+
+.column-7 {
+	width: 49.2%;
+}
+
+.column-6 {
+	width: 57.6666666667%;
+}
+
+.column-5 {
+	width: 66.1333333333%;
+}
+
+.column-4 {
+	width: 74.6%;
+}
+
+.column-3 {
+	width: 83.0666666667%;
+}
+
+.column-2 {
+	width: 91.5333333333%;
+}
+
+.column-1 {
+	width: 100%;
+}
+
+
+.column {
+	color: #777;
+	padding: 5px;
+	min-height: 30px;
+}
+
+.row {
+	margin-bottom: 10px;
+}
+
+.row:last-child {
+	margin-bottom:0;
+}
+
+.column .column {
+	color:#eee;
+}
+
+.object-fit_contain {
+	-o-object-fit: contain;
+	object-fit: contain;
+}
+
+img {
+	padding-left: 40%;
+	width:50%;
+}
+
+#headline {
+	font-family: 'TruenoUltraLight', sans-serif;
+	font-size:1.5em;
+	margin-top:20px;
+	cursor: pointer;
+}
+
+#nav {
+	position:absolute;
+	left:35px;
+	top:10px;
+	z-index: 100;
+
+}
+
+#nav>ul {
+	font-family: 'TruenoLight', sans-serif;
+	font-size:1.1em;
+	text-align:left;
+	padding-left:0;
+	list-style-type: none;
+	margin-top:30px;
+}
+
+.dish {
+	padding-bottom:15px;
+	color:#707070;
+	cursor: pointer;
+}
+
+h2 {
+	font-family: 'TruenoSemiBold', sans-serif;
+	font-size:1.5em;
+}
+
+h2 > span {
+	background-image: url("../images/yellow.png");
+	background-size: cover;
+}
+
+.ingredients, .time, .steps, .nutrition {
+	font-family: 'TruenoLight', sans-serif;
+	font-size:1.2em;
+}
+
+.ingredients, .time, .steps {
+	text-align:left;
+	padding:0;
+	list-style-type: none;
+}
+
+.ingredients {
+	margin-top:-10px;
+	padding-left:10px;
+}
+
+.ingredients>li {
+	padding-bottom:3px;
+}
+
+.time {
+	margin-top:-15px;
+	font-size:1em;
+}
+
+.time>li{
+	display: inline-block;
+	padding-right:20px;
+	font-family: 'TruenoUltraLight', sans-serif;
+}
+
+.steps {
+	width: 70%;
+	font-size: 1.2em;
+	margin-top:0px;
+
+}
+
+.nutrition {
+	margin-top:-10px;
+	width: 70%;
+	font-size:1em;
+	color:#707070;
+	margin-bottom:80px;
+}
+
+@media only screen and (max-width: 850px) {
+	.column-1,
+	.column-2,
+	.column-3,
+	.column-4,
+	.column-5,
+	.column-6,
+	.column-7,
+	.column-8,
+	.column-9,
+	.column-10,
+	.column-11,
+	.column-12 {
+		width: auto;
+		float: none;
+	}
+	
+	.column + .column {
+		margin-left: 0;
+	}
+
+	.column {
+		margin-left:0;
+	}
+
+	img {
+		padding-left: 0;
+		width:45%;
+		margin-bottom: 20px;
+	}
+
+	.container {
+	margin-top:260px;
+	margin-left:200px;
+	}
+
+}
+
+@media only screen and (max-width: 620px) {
+
+	img {
+		width:40%;
+		margin-bottom: 15px;
+	}
+
+	.container {
+	margin-left:100px;
+	}
+
+}
+
+@media only screen and (max-width: 450px) {
+
+	img {
+		width:35%;
+		margin-bottom: 10px;
+	}
+
+	.container {
+	margin-left:25px;
+	}
+
+	.steps {
+		width: 90%;
+	}
+
+	.nutrition {
+		width:90%;
+	}
+
+}
+
+.hide {
+	display: none;
+}
+
+
+
+
+
+
