@@ -1,0 +1,351 @@
+* {
+	max-width:1080px;
+	margin:0 auto;
+	color:#000;
+}
+
+.container {
+	width:100%;
+	min-height:30px;
+	position:relative;
+	margin:auto;
+	margin-bottom: 10px;
+	margin-top:80px;
+}
+
+.row, .column {
+	box-sizing: border-box;
+}
+
+.row:before, .row:after {
+	content:" ";
+	display: table;
+}
+
+.row:after {
+	clear: both;
+}
+
+.column {
+	position: relative;
+	float: left;
+}
+
+.column + .column {
+	margin-left: 1.6%;
+}
+
+.column-12{
+	width: 6.86666666667%;
+}
+
+.column-11{
+	width: 15.3333333333%;
+}
+
+.column-10 {
+	width: 23.8%;
+}
+
+.column-9 {
+	width: 32.2666666667%;
+}
+
+.column-8 {
+	width: 40.7333333333%;
+}
+
+.column-7 {
+	width: 49.2%;
+}
+
+.column-6 {
+	width: 57.6666666667%;
+}
+
+.column-5 {
+	width: 66.1333333333%;
+}
+
+.column-4 {
+	width: 74.6%;
+}
+
+.column-3 {
+	width: 83.0666666667%;
+}
+
+.column-2 {
+	width: 91.5333333333%;
+}
+
+.column-1 {
+	width: 100%;
+}
+
+
+.column {
+	color: #777;
+	padding: 5px;
+	min-height: 30px;
+}
+
+.row {
+	margin-bottom: 10px;
+}
+
+.row:last-child {
+	margin-bottom:0;
+}
+
+.column .column {
+	color:#eee;
+}
+
+.object-fit_contain {
+	-o-object-fit: contain;
+	object-fit: contain;
+}
+
+.border {
+	border:1.5px black solid;
+}
+
+
+
+
+
+
+
+
+
+#about, #music, #tour {
+	z-index:999;
+}
+
+
+
+.hide {
+	display: none;
+}
+
+#top {
+	position: fixed;
+	bottom:40px;
+	right:50px;
+	z-index: 99;
+  	font-size: 18px;
+  	border: none;
+  	outline: none;
+  	color: white;
+  	cursor: pointer;
+  	padding: 15px;
+  	border-radius: 4px;
+  	font-size:35px;
+  	font-weight:900;
+  	color:black;
+}
+
+#nav img {
+
+	display:block;
+	max-width:400px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom: 0;
+	margin-top:40px;
+}
+
+#nav ul {
+	text-align:center;
+}
+
+#nav li {
+	display:inline-block;
+	list-style-type: none;
+	text-align:center;
+	margin-right:30px;
+	margin-top:25px;
+	font-family:'TruenoLight', sans-serif;
+	font-size: 15px;
+	cursor: pointer;
+}
+
+#pink {
+	position:absolute;
+	left:-500px;
+	z-index:0;
+	width:65%;
+}
+
+img.band {
+	width:100%;
+}
+
+.left-text {
+	padding-left: 73px;
+}
+
+#headline1, #headline2 {
+	font-family:'TruenoRegular', sans-serif;
+	font-size:100px;
+}
+
+#headline1{
+	padding-top:20px;
+}
+
+#headline2{
+	margin-top:-35px;
+}
+
+
+#place {
+	font-family:'TruenoLight', sans-serif;
+	font-size:15px;
+	color:#5d5d5d;
+	margin-left:8px;
+}
+
+
+
+#members {
+	font-family:'TruenoLight',sans-serif;
+	font-size: 16px;
+	list-style-type: none;
+	padding-left:8px;
+	margin-top:380px;
+}
+
+#members li {
+	margin-bottom: 5px;
+}
+
+#blue {
+	position: absolute;
+	left:-500px;
+	z-index:0;
+	width:45%;
+}
+
+
+.push {
+	margin-left:25px;
+}
+
+
+#landmark {
+	max-width:59%;
+	margin:0 auto;
+	float:left;
+}
+
+h2 {
+	font-family:'TruenoLight',sans-serif;
+	font-size: 25px;
+	margin-top:200px;
+}
+
+
+span.year {
+	font-family:'TruenoUltraLight',sans-serif;
+	font-size: 13px;
+	color:#5d5d5d;
+}
+
+.songs {
+	font-family:'TruenoUltraLight',sans-serif;
+	font-size: 16px;
+	list-style: none;
+	padding-left:5px;
+	display:inline-block;
+	padding-top:8px;
+}
+
+#yellow {
+	position: absolute;
+	left:-300px;
+	z-index:0;
+	width:25%;
+}
+}
+
+.pushup {
+	margin-top:-200px;
+}
+
+.pushdown {
+	margin-top: 150px;
+}
+
+
+h2#tours {
+	font-family:'TruenoSemiBold',sans-serif;
+	font-size:50px;
+	padding-left:190px;
+	margin-top:155px;
+} 
+
+#tours span {
+	background-image: url("../images/yellow.png");
+	background-size: cover;
+}
+
+ul.tourList {
+	font-family:'TruenoUltraLight',sans-serif;
+	font-size:18px;
+	margin-top:25px;
+	list-style:none;
+	margin-left:150px;
+	border:2px black solid;
+	margin-bottom:70px;
+} 
+
+span.date {
+	font-family:'TruenoRegular',sans-serif;
+}
+
+.eachTour {
+	margin:5px 0;
+	padding:5px;
+}
+
+
+@media only screen and (max-width: 850px) {
+	.column-1,
+	.column-2,
+	.column-3,
+	.column-4,
+	.column-5,
+	.column-6,
+	.column-7,
+	.column-8,
+	.column-9,
+	.column-10,
+	.column-11,
+	.column-12 {
+		width: auto;
+		float: none;
+	}
+	
+	.column + .column {
+		margin-left: 0;
+	}
+
+	.column {
+		margin-left:0;
+	}
+
+	img {
+		width:45%;
+	}
+
+	.container {
+	margin-top:260px;
+	margin-left:200px;
+	}
+
+}
+
+
+
