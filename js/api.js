@@ -8,7 +8,7 @@ $(function(){
 			type:'GET',
 			url: url,
 			beforeSend: function(){
-				$('#container').append('<h1 id="load">LOADING</h1>');
+				$('#air').after('<h1 id="load" class="animated fadeIn">LOADING</h1>');
 			},
 			complete: function(){
 				$('#load').remove();
