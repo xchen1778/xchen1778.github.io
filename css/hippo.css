@@ -178,7 +178,7 @@
 	width:65%;
 }
 
-img.band {
+img#band {
 	width:100%;
 }
 
@@ -268,7 +268,7 @@ span.year {
 	z-index:0;
 	width:25%;
 }
-}
+
 
 .pushup {
 	margin-top:-200px;
@@ -336,13 +336,59 @@ span.date {
 		margin-left:0;
 	}
 
-	img {
-		width:45%;
+	img#band {
+		max-width:80%;
+		margin-left:5%;
 	}
 
-	.container {
-	margin-top:260px;
-	margin-left:200px;
+	#logo {
+		width:75%;
+	}
+	
+	#members {
+		margin-top:20px;
+	}
+
+	h2 {
+		clear:both;
+	}
+
+	#album1, #album2 {
+		margin-left: 35px;
+	}
+
+	h2#tours {
+		padding-left:20px;
+		font-size:30px;
+	} 
+
+	ul.tourList {
+		margin-left:20px;
+	}
+
+	.eachTour {
+	margin-left:0;
+	padding-left:0;
+	font-size:15px;
+	}
+
+	#pink {
+	left:-300px;
+	width:1000%;
+	}
+
+	#blue {
+	left:-300px;
+	width:1000%;
+	}
+
+	#yellow {
+	left:-300px;
+	width:1000%;
+	}
+
+	#top {
+		right:20px;
 	}
 
 }
