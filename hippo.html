@@ -11,7 +11,7 @@
 
 <body>
     <div id="nav">
-        <a onclick="window.location.href=this"><img src="images/hippologo.png" alt="Hippo Campus's Logo"></a>
+        <a onclick="window.location.href=this"><img src="images/hippologo.png" alt="Hippo Campus's Logo" id="logo"></a>
         <ul class="animated fadeIn">
             <li class="nav">ABOUT</li>
             <li class="nav">MUSIC</li>
@@ -26,8 +26,8 @@
 
     <div class="container animated fadeIn" id="about">
         <div class="row">
-            <div class="column column-7 border">
-                <img class="object-fit_contain band" src="images/band1.jpg" alt="Band's Profile Picture"/>
+            <div class="column column-7">
+                <img id="band" class="object-fit_contain border" src="images/band1.jpg" alt="Band's Profile Picture"/>
             </div>
 
             <div class="column column-7 left-text">
@@ -54,7 +54,7 @@
         <div class="row pushdown push">
         <div class="column column-7">
 			<img id="landmark" class="object-fit_contain" src="images/landmark.png" alt="Landmark Album"/>
-
+            <div id="album1">
         	<h2>Landmark &nbsp;<span class="year">2017</span></h2>
             <ul class="songs">
                 <li>&#8811; Sun Veins</li>
@@ -72,9 +72,11 @@
                 <li>&#8811; Buttercup</li>
             </ul>
         </div>
+        </div>
            <div class="column column-7">
             <img id="landmark" class="object-fit_contain" src="images/bambi.png" alt="Bambi Album"/>
-
+            
+            <div id="album2">
         	<h2>Bambi &nbsp;<span class="year">2018</span></h2>
             <ul class="songs">
                 <li>&#8811; Mistakes</li>
@@ -88,6 +90,7 @@
                 <li>&#8811; Golden</li>
                 <li>&#8811; Passenger</li>
             </ul>
+        </div>
             </div>
 
         </div>
