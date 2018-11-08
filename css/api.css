@@ -70,4 +70,34 @@ button {
 }
 
 
+@media (max-width: 960px) {
+	div {
+		margin:0 50px;
+	}
+
+	h1 {
+		font-size:35px;
+	}
+
+	p {
+		font-size:20px;
+	}
+}
+
+@media (max-width: 500px) {
+	div {
+		margin:0 50px;
+	}
+
+	h1 {
+		font-size:30px;
+	}
+
+	p {
+		font-size:16px;
+	}
+
+}
+
+
 
